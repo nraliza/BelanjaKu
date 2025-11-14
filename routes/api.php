@@ -18,3 +18,5 @@ Route::get('/students', [StudentController::class, 'index']);
 Route::delete('/students/{nim}', [StudentController::class, 'destroy']);
 Route::put('/students/{nim}', [StudentController::class, 'update']);
 Route::patch('/students/{nim}', [StudentController::class, 'update']);
+
+// testing
